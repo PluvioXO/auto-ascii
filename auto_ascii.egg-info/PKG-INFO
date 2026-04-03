@@ -1,0 +1,40 @@
+Metadata-Version: 2.4
+Name: auto-ascii
+Version: 0.1.0
+Summary: A standard Python package to convert images to ASCII art.
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: Pillow>=9.0.0
+
+# auto-ascii
+
+A Python package that converts an image to ASCII art.
+
+## Installation
+
+You can install this package locally:
+
+```bash
+pip install .
+```
+
+## Usage
+
+### Command Line
+
+Once installed, you can use the `auto-ascii` command in your terminal:
+
+```bash
+auto-ascii path/to/image.jpg --width 120
+```
+
+### In Python
+
+You can also use it in your own Python scripts:
+
+```python
+from auto_ascii import image_to_ascii
+
+ascii_art = image_to_ascii("path/to/image.jpg", new_width=100)
+print(ascii_art)
+```

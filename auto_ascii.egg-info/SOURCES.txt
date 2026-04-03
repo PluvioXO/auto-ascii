@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+auto_ascii/__init__.py
+auto_ascii/cli.py
+auto_ascii/converter.py
+auto_ascii.egg-info/PKG-INFO
+auto_ascii.egg-info/SOURCES.txt
+auto_ascii.egg-info/dependency_links.txt
+auto_ascii.egg-info/entry_points.txt
+auto_ascii.egg-info/requires.txt
+auto_ascii.egg-info/top_level.txt
+tests/test_converter.py

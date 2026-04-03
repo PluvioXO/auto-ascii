@@ -1,0 +1,2 @@
+[console_scripts]
+auto-ascii = auto_ascii.cli:main
